@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#04A4B9</item>
+        <item name="colorPrimaryDark">#553AB7</item>
+        <item name="colorAccent">#070707</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">#00000000</item>
+
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04A4B9</color>
+    <color name="colorPrimaryDark">#0091ea</color>
+    <color name="colorAccent">#070707</color>
+    <color name="black">#000</color>
+
+    <color name="gradEnd">#34407C</color>
+    <color name="gradStart">#33B0C0</color>
+    <color name="toolbarback">#3F51B5</color>
+    <color name="grey">#E9EAEE</color>
+    <color name="white">#fff</color>
+    <color name="gray">#2d2d2d</color>
+
+    <color name="color1">#0277bd</color>
+    <color name="color2">#311b92</color>
+    <color name="color3">#5c6bc0</color>
+    <color name="color4">#37474f</color>
+    <color name="color5">#263238</color>
+    <color name="color6">#424242</color>
+    <color name="color7">#1a237e</color>
+    <color name="color8">#0091ea</color>
+</resources>

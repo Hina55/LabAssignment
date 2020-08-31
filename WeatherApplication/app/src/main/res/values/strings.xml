@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Daily Weather</string>
+    <string name="weather_hint">Enter City Name</string>
+
+    <string-array name="city_name">
+        <item>Hyderabad, Pakistan</item>
+        <item>Turkey</item>
+        <item>Karachi, Pakistan</item>
+        <item>Islamabad, Pakistan</item>
+        <item>Rawalpindi, Pakistan</item>
+        <item>Gujrat, Pakistan</item>
+        <item>Los Angeles</item>
+        <item>London</item>
+        <item>America</item>
+        <item>Canada</item>
+        <item>Hong Kong</item>
+        <item>China</item>
+        <item>India</item>
+        <item> Dubai</item>
+        <item>Saudi Arabia</item>
+        <item>Lahore, Pakistan</item>
+        <item>Antarctica</item>
+        <item>Australia</item>
+        <item>Columbus</item>
+        <item>Zimbabwe</item>
+        <item>Africa</item>
+        <item>Abu Dhabi</item>
+        <item>Kabul, Afghanistan</item>
+        <item>Kufa, Iraq</item>
+        <item>Jackson, United States</item>
+        <item>Jhang, Pakistan</item>
+        <item>Jind, India</item>
+        <item>Bangladesh</item>
+        <item>Banglore, India</item>
+        <item>Bangkok, Thailand</item>
+        <item>Chiniot, Pakistan</item>
+        <item>California</item>
+        <item>Chandrapur, India</item>
+        <item>Oslo</item>
+        <item>Punjab, Pakistan</item>
+        <item>France</item>
+        <item>Spain</item>
+        <item>Washington, D.C.</item>
+        <item>Wuhan</item>
+        <item>York, United Kingdom</item>
+        <item>Yao, Japan</item>
+        <item>Quetta, Pakistan</item>
+        <item>Elizabeth, United States</item>
+        <item>Manchester</item>
+        <item>Mardan, Pakistan</item>
+        <item>Malatya, Turkey</item>
+        <item>Nawabshah, Pakisatn</item>
+        <item>Nantong, China</item>
+        <item>Valencia, Spain</item>
+        <item>Van, Turkey</item>
+        <item>Xalapa, Mexico</item>
+    </string-array>
+
+
+
+</resources>

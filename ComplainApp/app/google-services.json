@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951716687861",
+    "firebase_url": "https://complainapp-88093.firebaseio.com",
+    "project_id": "complainapp-88093",
+    "storage_bucket": "complainapp-88093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951716687861:android:fb44ec225b7571d8513abc",
+        "android_client_info": {
+          "package_name": "com.hina.complainapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951716687861-a8gcoa6a4aimo9tuq4t0nab1igm2idik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hina.complainapp",
+            "certificate_hash": "72941fd87dda66b8aee596a9c1381e6f9d25b54e"
+          }
+        },
+        {
+          "client_id": "951716687861-g75re9alc1qf3qejsr1tdt6mhf1m8i8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoTB4xkqm-cJfZlg9D8GFOOdLM4dmBEik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951716687861-g75re9alc1qf3qejsr1tdt6mhf1m8i8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

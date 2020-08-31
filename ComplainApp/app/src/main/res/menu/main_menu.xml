@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="Dashboard">
+        </item>
+
+        <item
+            android:id="@+id/nav_add_complain"
+            android:icon="@drawable/ic_add_box_white_24dp"
+            android:title="Register Complain">
+        </item>
+        <item
+            android:id="@+id/nav_list_complain"
+            android:icon="@drawable/ic_view_list_white_24dp"
+            android:title="All Complains">
+        </item>
+
+
+    </group>
+    <item android:title="Account">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_account_box_black_24dp"
+                    android:title="Profile">
+                </item>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_exit_to_app_white_24dp"
+                    android:title="Logout">
+                </item>
+
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

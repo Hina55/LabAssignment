@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainCoordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#F9F9FC"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mainRelativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#FDBC4B"
+                app:titleTextColor="@android:color/white" />
+
+
+            <LinearLayout
+                android:id="@+id/nothing_to_show_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/nothing_layout_show" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_nothing_to_display"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:text="There is nothing to show."
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    app:fontFamily="@font/calibri" />
+
+                <Button
+                    android:id="@+id/btnimgtext"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_note_add_black_24dp"
+                    android:foreground="@android:color/transparent"
+                    android:text="Add Note"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginBottom="20dp"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_white_24dp"
+        app:backgroundTint="#F7B24A"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
