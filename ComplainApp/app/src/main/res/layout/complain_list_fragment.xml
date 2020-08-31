@@ -4,10 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
+   >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#5B8793EB"
     android:paddingBottom="12dp">
-
-
 
     <LinearLayout
         android:id="@+id/nothing_to_show_image"
@@ -42,5 +46,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/comlpainListRecycler" />
-
+</RelativeLayout>
 </RelativeLayout>
